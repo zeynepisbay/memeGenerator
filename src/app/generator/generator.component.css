@@ -1,4 +1,3 @@
-
 .card{
     border: none;
     background: #555557;
@@ -29,11 +28,6 @@ label{
     color:rgb(140, 147, 209);
     border: 3px solid rgb(140, 147, 209);
 }
-/* .upload-btn-wrapper {
-  overflow: hidden;
-  display: inline-block;
-} */
-
 .uploadBtn {
   border: 2px solid rgb(140, 147, 209);
   color: rgb(140, 147, 209);
@@ -43,7 +37,6 @@ label{
   font-family: 'Press Start 2P', cursive;
   font-size: 12px;
 }
-
 .upload-btn-wrapper input[type=file] {
   font-size: 50px;
   position: absolute;
@@ -51,9 +44,3 @@ label{
   top: 0;
   opacity: 0;
 }
-
-/* @media (max-width: 1024px){
-    .colorChrome{
-
-    }
-} */
