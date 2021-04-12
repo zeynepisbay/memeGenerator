@@ -1,0 +1,15 @@
+header {
+    padding: 20px 20px 0 20px;
+    width: 100%;
+    
+}
+.brand {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 4vw;
+    color:rgb(140, 147, 209);
+}
+/* @media (max-width: 1200px){
+    header{
+        height:250px;
+    }
+} */

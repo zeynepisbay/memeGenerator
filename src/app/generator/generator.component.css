@@ -1,0 +1,59 @@
+
+.card{
+    border: none;
+    background: #555557;
+}
+input{
+    background: rgb(136, 136, 136);
+    border:none;
+}
+.app{
+    margin-top: 30px;
+}
+label{
+    background-color: rgb(140, 147, 209);
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.btn{
+    background: rgb(140, 147, 209);
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+}
+.btn:hover{
+    background: #fff;
+    color:rgb(140, 147, 209);
+    border: 3px solid rgb(140, 147, 209);
+}
+/* .upload-btn-wrapper {
+  overflow: hidden;
+  display: inline-block;
+} */
+
+.uploadBtn {
+  border: 2px solid rgb(140, 147, 209);
+  color: rgb(140, 147, 209);
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 5px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+/* @media (max-width: 1024px){
+    .colorChrome{
+
+    }
+} */

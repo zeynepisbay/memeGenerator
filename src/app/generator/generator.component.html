@@ -1,0 +1,51 @@
+<div class="app mt-4">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <div class="card drop-shadow">
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="">select an image</label>
+                                <div class="upload-btn-wrapper">
+                                    <button class="uploadBtn">click me to upload an image</button>
+                                    <input type="file" name="myfile" class="form-control" accept="image/*" (change)='preview($event)'>
+                                </div>
+                                <!-- <input type="file" class="form-control" accept="image/*" (change)='preview($event)'> -->
+                            </div>
+                            <div class="form-group">
+                                <label for="">top text</label>
+                                <input type="text" class="form-control" name="topText" [(ngModel)]= 'topText' (keyup)='drawText()'>
+                            </div>
+                            <div class="form-group">
+                                <label for="">bottom text</label>
+                                <input type="text" class="form-control" name="bottomText" [(ngModel)]='bottomText' (keyup)='drawText()'>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                           <div class="row colorChrome">
+                               <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                   <div class="form-group">
+                                       <label for="">text color</label>
+                                       <color-chrome (onChangeComplete)='canvasTextColor($event)'></color-chrome>
+                                   </div>
+                               </div>
+                               <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                   <div class="form-group">
+                                       <label for="">background color</label>
+                                       <color-chrome (onChangeComplete)='canvasBgColor($event)'></color-chrome>
+                                   </div>
+                               </div>
+                           </div>
+                        </div>
+                           <button class="btn btn-block mt-3" (click)='downloadImg()'>download the meme to your computer</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <canvas class="drop-shadow img-fluid" #memeCanvas width="700" height="655" style="background: #555557;"></canvas>
+            </div>
+        </div>
+        
+    </div>
+</div>

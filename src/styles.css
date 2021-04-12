@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.drop-shadow {
+    -webkit-box-shadow: 0px 0px 33px -10px rgba(32, 32, 32, 0.87);
+    -moz-box-shadow: 0px 0px 33px -10px rgba(53, 53, 54, 0.904);
+    box-shadow: 0px 0px 33px -10px rgba(16, 17, 17, 0.514);
+}
