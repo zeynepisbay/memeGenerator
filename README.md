@@ -1,7 +1,8 @@
 # MemeGenerator
 
 ![memeImg (7)](https://user-images.githubusercontent.com/57637790/114531927-041b8e00-9c55-11eb-8cbe-66f4f816b92d.png)
-![Uploading memeImg (8).png…]()
+![memeImg (8)](https://user-images.githubusercontent.com/57637790/114532028-1a294e80-9c55-11eb-8173-a5519741f9b3.png)
+
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.0.
